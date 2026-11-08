@@ -1,10 +1,8 @@
 # sevruk-ai-skills
 
-Коллекция скиллов для ИИ-агентов в открытом формате **Agent Skills (SKILL.md)**. Работают в Hermes, Claude Code, Codex CLI и других агентах, поддерживающих стандарт.
+A collection of skills for AI agents in the open **Agent Skills (SKILL.md)** format. Compatible with Hermes, Claude Code, Codex CLI, and other agents that support the standard.
 
-Collection of agent skills in the open **Agent Skills (SKILL.md)** format. Compatible with Hermes, Claude Code, Codex CLI and other agents that support the standard.
-
-## Установка / Install
+## Install
 
 Hermes:
 
@@ -12,20 +10,20 @@ Hermes:
 hermes skill install github.com/sevruk-ai/sevruk-ai-skills/<skill-name>
 ```
 
-Claude Code / Codex (через npx skills):
+Claude Code / Codex (via npx skills):
 
 ```
 npx skills add https://github.com/sevruk-ai/sevruk-ai-skills --skill <skill-name>
 ```
 
-Либо вручную: скопируйте папку скилла в каталог skills вашего агента.
+Or manually: copy the skill folder into your agent's skills directory.
 
-## Скиллы / Skills
+## Skills
 
-| Скилл | Назначение |
-|---|---|
-| *(скоро)* | |
+| Skill | Purpose |
+| --- | --- |
+| *(coming soon)* |  |
 
-## Лицензия / License
+## License
 
-MIT. Используйте свободно; при доработках — присылайте pull request.
+MIT. Use freely; if you improve something, send a pull request.

@@ -1,24 +1,24 @@
-# AGENTS.md — правила публикации скиллов в sevruk-ai-skills
+# AGENTS.md — rules for publishing skills to sevruk-ai-skills
 
-Репозиторий: https://github.com/sevruk-ai/sevruk-ai-skills (публичный, лицензия MIT).
-Локальная копия: `~/GitHub/sevruk-ai-skills`.
-Этот файл — единый: правки в папке проекта меняют файл репозитория (симлинк).
+Repository: https://github.com/sevruk-ai/sevruk-ai-skills (public, MIT license).
+Local copy: `~/GitHub/sevruk-ai-skills`.
+This file is single-source: edits in the project folder change the repository file (symlink).
 
-## Публикация нового скилла
+## Publishing a new skill
 
-1. Исходник скилла лежит строго в своей подпапке проекта: `~/Documents/Claude/Projects/Agent Skills/<имя>/`. Публикуем из подпапок проекта, а не из Hermes (`~/.hermes/skills` не трогать).
-2. Скопировать его в `skills/<имя>/` репозитория (вместе со всеми подпапками: references/, templates/, scripts/).
-3. **Обязательная вычистка перед публикацией** — удалить/заменить из SKILL.md и всех вложенных файлов:
-   - пароли, токены, ключи, IP серверов, логины;
-   - личные и рабочие данные владельца (имя, проекты, домены клиентов);
-   - ссылки на закрытые сервисы и внутренние файлы.
-   Публиковать можно только скиллы, прошедшие вычистку.
-4. Обновить таблицу в README.md: добавить строку «имя скилла — назначение».
-5. Закоммитить и запушить: `git add -A && git commit -m "Add skill: <имя>" && git push`.
+1. The skill source lives strictly in its own project subfolder: `~/Documents/Claude/Projects/Agent Skills/<name>/`. Publish from project subfolders, not from Hermes (do not touch `~/.hermes/skills`).
+2. Copy it to `skills/<name>/` in the repository (including all subfolders: references/, templates/, scripts/).
+3. **Mandatory cleanup before publishing** — remove/replace from SKILL.md and all nested files:
+   - passwords, tokens, keys, server IPs, logins;
+   - the owner's personal and work data (name, projects, client domains);
+   - links to closed services and internal files.
+   Only cleaned skills may be published.
+4. Update the table in README.md: add a row "skill name — purpose".
+5. Commit and push: `git add -A && git commit -m "Add skill: <name>" && git push`.
 
-## Правила
+## Rules
 
-- Подпись коммитов: sevruk-ai (настроено глобально, не менять).
-- Язык SKILL.md оставлять как есть; README и описания — русский.
-- Каждый скилл — одна папка с SKILL.md. Один коммит — один скилл (или одна правка).
-- Никаких секретов в истории коммитов: если что-то попало — сказать владельцу сразу.
+- Commit signature: sevruk-ai (set globally, do not change).
+- Publish SKILL.md in English; README and descriptions in English.
+- One skill = one folder with SKILL.md. One commit = one skill (or one fix).
+- No secrets in commit history: if something slipped in, tell the owner immediately.

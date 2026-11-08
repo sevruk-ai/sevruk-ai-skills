@@ -16,6 +16,13 @@ Claude Code / Codex (via npx skills):
 npx skills add https://github.com/sevruk-ai/sevruk-ai-skills --skill <skill-name>
 ```
 
+Claude Code (built-in plugin marketplace):
+
+```
+/plugin marketplace add sevruk-ai/sevruk-ai-skills
+/plugin install <skill-name>@sevruk-ai-skills
+```
+
 Or manually: copy the skill folder into your agent's skills directory.
 
 ## Skills

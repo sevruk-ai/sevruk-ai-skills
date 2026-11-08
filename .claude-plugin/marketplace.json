@@ -1,0 +1,20 @@
+{
+  "name": "sevruk-ai-skills",
+  "owner": {
+    "name": "Vladimir Sevruk",
+    "url": "https://github.com/sevruk-ai"
+  },
+  "metadata": {
+    "description": "Agent skills (SKILL.md) for Hermes, Claude Code, Codex",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "always-check-current-date",
+      "description": "Verify the current date and time before every reply and stamp each answer.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/always-check-current-date"]
+    }
+  ]
+}

@@ -7,7 +7,7 @@ A collection of skills for AI agents in the open **Agent Skills (SKILL.md)** for
 Hermes:
 
 ```
-hermes skill install github.com/sevruk-ai/sevruk-ai-skills/<skill-name>
+hermes skills install sevruk-ai/sevruk-ai-skills/skills/<skill-name>
 ```
 
 Claude Code / Codex (via npx skills):

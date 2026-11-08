@@ -22,7 +22,7 @@ Or manually: copy the skill folder into your agent's skills directory.
 
 | Skill | Purpose |
 | --- | --- |
-| *(coming soon)* |  |
+| [always-check-current-date](skills/always-check-current-date/SKILL.md) | Verify the current date and time before every reply and stamp each answer. |
 
 ## License
 
